@@ -1,6 +1,6 @@
 # API de Mantención Industrial (Evaluación Backend)
 
-## 🧾 Descripción del Proyecto
+## Descripción del Proyecto
 Esta API RESTful implementa un sistema de gestión de mantenciones industriales utilizando **Django** y **Django REST Framework**, cumpliendo los requerimientos de la Evaluación 4 del ramo de Programación Backend.
 
 La API permite administrar:
@@ -22,7 +22,7 @@ Incluye:
 
 ---
 
-## 🏗️ Tecnologías utilizadas
+## Tecnologías utilizadas
 - Python 3.10+
 - Django 4.2+
 - Django REST Framework 3.14+
@@ -31,7 +31,7 @@ Incluye:
 
 ---
 
-## ⚙️ Instalación y configuración
+## Instalación y configuración
 
 ### 1. Crear entorno virtual
 ```bash
@@ -61,7 +61,7 @@ python manage.py runserver
 
 ---
 
-## 🔐 Autenticación con JWT
+## Autenticación con JWT
 
 ### Obtener token
 **POST /api/auth/token/**  
@@ -88,7 +88,7 @@ Authorization: Bearer <access_token>
 
 ---
 
-## 🌐 Endpoints principales
+## Endpoints principales
 
 ### Empresas
 ```
@@ -125,7 +125,7 @@ POST /api/ordenes-trabajo/
 
 ---
 
-## ❤️ Health Check
+## Health Check
 ```
 GET /api/health/
 ```
@@ -139,7 +139,7 @@ Ejemplo respuesta:
 
 ---
 
-## 📬 Ejemplos CURL
+## Ejemplos CURL
 
 ### Crear Empresa
 ```bash
@@ -157,7 +157,7 @@ curl http://127.0.0.1:8000/api/equipos/
 
 ---
 
-## 🗂️ Commits realizados (según rúbrica)
+## Commits realizados 
 
 1. `init: proyecto y configuración inicial de DRF y JWT`
 2. `feat(modelos): agregar Empresa, Equipo, Tecnico, PlanMantencion y OrdenTrabajo`
@@ -166,21 +166,9 @@ curl http://127.0.0.1:8000/api/equipos/
 5. `feat(urls): routers, JWT y health`
 6. `chore(migrations): migraciones aplicadas`
 7. `docs: README con instrucciones`
-8. `chore: limpieza final y docstrings`
+
 
 ---
 
-## ✔ Cumplimiento total de la rúbrica
-- DRF correctamente configurado  
-- CRUD completo  
-- Entidades en español  
-- JSON por defecto  
-- JWT funcionando  
-- Permisos implementados  
-- Endpoint de estado  
-- Commits progresivos  
-- Documentación extensa  
+ 
 
----
-
-## 🎉 Proyecto listo para entregar
